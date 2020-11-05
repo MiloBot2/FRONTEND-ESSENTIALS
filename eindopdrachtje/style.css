@@ -1,0 +1,35 @@
+body{
+    background-color: orange;
+}
+
+.container {
+    background-color: gray;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border:10px solid white;
+    list-style-type: square;
+}
+
+#kaas {
+    font-size: 2em;
+    color: chartreuse;
+    font-family: fantasy;
+    border:5px solid white;
+}
+
+#kaasje {
+    font-size: 2em;
+    color: blueviolet;
+    font-family: fantasy;
+    border:5px solid white;
+}
+
+table, th, td {
+    border:5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: fantasy;
+    font-size: 20px;
+}
