@@ -6,16 +6,41 @@
     <title>Flexbox container</title>
 
     <style>
-       
+    .container {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border:12px solid black;
+        background-image: url(https://cms-assets.tutsplus.com/uploads/users/127/posts/31341/image/1_10.png);
+        list-style-type: square;
+        font-family: fantasy;
+        width: 100%;
+     }
+
+     .menu-item {
+         color: red;
+     }
+
+     body {
+         background-color: cornflowerblue;
+         background-image: url(https://blog.pixlr.com/wp-content/uploads/2019/03/stars-pattern.png);
+     }
+
+     #kaas {
+         padding-top:5px;
+         color: black;
+         border:10px double red;
+     }
+
     </style>
 </head>
 <body>
    <nav>
        <ul class="container">
-           <li class="menu-item"><a href="#">Home</a></li>
-           <li class="menu-item"><a href="#">Over mij</a></li>
-           <li class="menu-item"><a href="#">Vaardigheden</a></li>
-           <li class="menu-item"><a href="#">Hobby's</a></li>
+           <li class="menu-item"><a href="#" id="kaas">Home</a></li>
+           <li class="menu-item"><a href="#" id="kaas">Over mij</a></li>
+           <li class="menu-item"><a href="#" id="kaas">Vaardigheden</a></li>
+           <li class="menu-item"><a href="#" id="kaas">Hobby's</a></li>
        </ul>
    </nav>
 </body>
