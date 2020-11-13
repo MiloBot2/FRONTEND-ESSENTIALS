@@ -1,0 +1,25 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 225px;
+    height: 150px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#ding1{
+    position:relative;
+    background-image:-webkit-linear-gradient(90deg,#0039a6 75px,transparent 75px),linear-gradient(#fff 50%,#d52b1e 50%);
+    background-image:-o-linear-gradient(90deg,#0039a6 75px,transparent 75px),linear-gradient(#fff 50%,#d52b1e 50%);
+    background-image:-moz-linear-gradient(90deg,#0039a6 75px,transparent 75px),linear-gradient(#fff 50%,#d52b1e 50%);
+    background-image:linear-gradient(90deg,#0039a6 75px,transparent 75px),linear-gradient(#fff 50%,#d52b1e 50%);
+    background-size:225px 75px,225px 150px;
+    background-repeat:no-repeat,no-repeat;
+    width:225px;
+    height:150px;
+}

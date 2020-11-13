@@ -4,20 +4,34 @@ var email = prompt("Wat is uw email?");
 var woonplaats = prompt("Waar woont u?");
 var leeftijd = prompt("Hoe jong bent u?");
 
-if(leeftijd == 16)
-document.body.style.backgroundColor = 'orange';
+var age = 16;
 
-if(leeftijd == 17)
-document.body.style.backgroundColor = 'blue';
+let iets = "1";
 
-if(leeftijd == 18)
-document.body.style.backgroundColor = 'gold';
+if(leeftijd == age)
+{document.body.style.backgroundColor = 'orange';
+console.log("Orange background");
+}
 
-if(leeftijd == 19)
-document.body.style.backgroundColor = 'green';
+if(leeftijd == age + 1)
+{document.body.style.backgroundColor = 'blue';
+console.log("Blue background");
+}
 
-if(!leeftijd.startsWith("1"))
-document.body.style.backgroundColor = 'red';
+if(leeftijd == age + 2)
+{document.body.style.backgroundColor = 'gold';
+console.log("Golden background");
+}
+
+if(leeftijd == age + 3)
+{document.body.style.backgroundColor = 'green';
+console.log("Green background");
+}
+
+if(!leeftijd.startsWith(iets) || leeftijd == null)
+{document.body.style.backgroundColor = 'red';
+console.log("Red background");
+}
 
 var element = document.getElementById("v1");
 element.innerHTML = voornaam;

@@ -1,0 +1,30 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#white{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(66, 176, 245);
+}
+
+#ding2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -50%;
+    vertical-align: middle;
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 100%;
+}
